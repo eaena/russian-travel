@@ -1,6 +1,11 @@
-@import url(./__list/footer__list.css);
+@import url(./__grid/footer__grid.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
 
 .footer {
-
+    width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 92px;
 }

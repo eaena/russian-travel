@@ -1,6 +1,12 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
 
 .cover {
-    background: url(../../images/cover__background.jpg) no-repeat;
+    width: 1184px;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,0 +1,7 @@
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    gap: 16px;
+    border: 1px solid red;
+    text-decoration: underline;
+}
