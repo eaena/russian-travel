@@ -1,0 +1,14 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+@import url(./__list-element/intro__list-element.css);
+
+.intro {
+    width: 690px;
+    height: 420px;
+    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid red;
+}
