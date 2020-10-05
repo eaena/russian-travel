@@ -5,10 +5,9 @@
 
 .intro {
     width: 984px;
-    height: 420px;
     padding-top: 92px;
+    padding-bottom: 92px;
     display: flex;
     flex-direction: column;
     color: white;
-    border: 1px solid red;
 }

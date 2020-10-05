@@ -6,7 +6,6 @@
     font-weight: bold;
     font-family: 'Inter Black';
     text-align: center;
-    padding: 0;
+    padding-top: 56px;
     margin: 0;
-    border: 1px solid red;
 }

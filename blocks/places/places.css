@@ -1,6 +1,6 @@
-@import url(./__list/places__list.css);
-
 .places {
-    list-style: none;
+    margin: 0;
+    padding-top: 92px;
+    padding-bottom: 92px;
     color: white;
 }
