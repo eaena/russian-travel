@@ -1,7 +1,10 @@
 .place__text {
-    font-style: 18px;
+    width: 100%;
+    font-size: 18px;
     line-height: 163%;
-    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     padding: 0;
+
 }
