@@ -5,3 +5,23 @@
     padding-bottom: 93px;
     color: white;
 }
+
+@media screen and (max-width: 1279px) {
+    .places {
+        width: 100%;
+        padding-bottom: 108px;
+    }
+   }
+   @media screen and (max-width: 1023px) {
+    .places {
+        width: 100%;
+        padding-top: 92px;
+        padding-bottom: 50px;
+    }
+   }
+   @media screen and (max-width: 767px) {
+    .places {
+        width: 100%;
+        padding-top: 65px;
+    }
+   }

@@ -8,15 +8,38 @@
 
 .place {
     width: 100%;
-    display: grid;
-    grid-template-columns: 47.5% 1fr;
-    row-gap: 44px;
-    column-gap: 33px;
+    display: flex;
+    flex-wrap: wrap;
     color: white;
     margin: 0;
     padding: 0;
 }
 
 .place + .place {
-    margin-top: 76px;
+    margin-top: 84px;
 }
+
+@media screen and (max-width: 1279px) {
+    .place {
+        width: 100%;
+    }
+    .place + .place {
+        margin-top: 85px;
+    }
+   }
+   @media screen and (max-width: 1023px) {
+    .place {
+        width: 100%;
+    }
+    .place + .place {
+        margin-top: 85px;
+    }
+   }
+   @media screen and (max-width: 767px) {
+    .place {
+        width: 100vw;
+    }
+    .place + .place {
+        margin-top: 85px;
+    }
+   }

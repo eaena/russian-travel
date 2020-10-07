@@ -2,7 +2,7 @@
     width: 560px;
     height: 152px;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 106%;
     font-weight: 900;
     font-style: normal;
     text-align: center;
@@ -12,3 +12,12 @@
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        width: 288px;
+        height: 70px;
+        font-size: 32px;
+        line-height: 109%;
+    } 
+   }
