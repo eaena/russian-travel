@@ -37,9 +37,9 @@
    }
    @media screen and (max-width: 767px) {
     .place {
-        width: 100vw;
+        width: 100%;
     }
     .place + .place {
-        margin-top: 85px;
+        margin-top: 55px;
     }
    }
