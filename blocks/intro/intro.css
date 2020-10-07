@@ -5,7 +5,7 @@
 
 .intro {
     width: 83.1%;
-    padding-bottom: 94px;
+    padding-bottom: 93px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -13,16 +13,18 @@
 
 @media screen and (max-width: 1279px) {
     .intro {
-        width: 83.1%;
+        width: 100%;
     }
    }
    @media screen and (max-width: 1023px) {
     .intro {
-        width: 92.5%;
+        width: 100%;
+        padding-bottom: 88px;
     } 
    }
    @media screen and (max-width: 767px) {
     .intro {
-        width: 92.5%;
+        width: 100%;
+        padding-bottom: 68px;
     } 
    }
