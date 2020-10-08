@@ -1,4 +1,4 @@
-.header__lang-link_selected {
+.header__lang-link_line_selected {
     font-size: 24px;
     line-height: 28px;
     color: white;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-link_selected {
+    .header__lang-link_line_selected {
         font-size: 18px;
         line-height: 20px;
 
