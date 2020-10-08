@@ -1,0 +1,11 @@
+.footer__links {
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        padding-left: 16px;
+    }
+}
