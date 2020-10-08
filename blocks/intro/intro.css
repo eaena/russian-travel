@@ -4,7 +4,7 @@
 @import url(./__list-element/intro__list-element.css);
 
 .intro {
-    width: 83.1%;
+    width: 76.875%;
     padding-bottom: 93px;
     display: flex;
     flex-direction: column;
@@ -14,18 +14,18 @@
 
 @media screen and (max-width: 1279px) {
     .intro {
-        width: 100%;
+        width: 90.625%;
     }
    }
    @media screen and (max-width: 1023px) {
     .intro {
-        width: 100%;
+        width: 93.75%;
         padding-bottom: 88px;
     } 
    }
    @media screen and (max-width: 767px) {
     .intro {
-        width: 100%;
+        width: 90%;
         padding-bottom: 64px;
     } 
    }

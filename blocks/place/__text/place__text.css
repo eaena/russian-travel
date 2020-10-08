@@ -1,7 +1,7 @@
 .place__text {
     width: calc(53.25% - 40px);
     padding-left: 39px;
-    padding-top: 44px;
+    padding-top: 39px;
     font-size: 18px;
     line-height: 163%;
     font-weight: 400;
@@ -19,9 +19,9 @@
    }
 @media screen and (max-width: 1023px) {
     .place__text {
-        width: calc(52.91% - 40px);
+        width: calc(52.78% - 40px);
         font-size: 16px;
-        padding-left: 29px;
+        padding-left: 28px;
     } 
    }
 @media screen and (max-width: 767px) {
@@ -30,6 +30,5 @@
         font-size: 16px;
         padding-top: 30px;
         padding-left: 16px;
-        padding-right: 16px;
     } 
    }

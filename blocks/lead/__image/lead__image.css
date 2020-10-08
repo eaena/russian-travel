@@ -4,19 +4,3 @@
     padding: 0;
 
 }
-
-@media screen and (max-width: 1279px) {
-    .lead__image {
-        width: 100%;
-    }
-   }
-   @media screen and (max-width: 1023px) {
-    .lead__image {
-        width: 100vw;
-    } 
-   }
-   @media screen and (max-width: 767px) {
-    .lead__image {
-        width: 100%;
-    } 
-   }
