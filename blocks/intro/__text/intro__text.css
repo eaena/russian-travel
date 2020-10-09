@@ -12,7 +12,6 @@
 @media screen and (max-width: 1279px) {
     .intro__text {
         width: 74.35%;
-        padding-top: 35px;
         padding-bottom: 33px;
     }
    }
@@ -20,12 +19,10 @@
     .intro__text {
         width: 100%;
         padding-top: 33px;
-        padding-bottom: 33px;
     } 
    }
 @media screen and (max-width: 767px) {
     .intro__text {
-        width: 100%;
         align-self: start;
         padding: 38px 0 35px 0;
     } 
