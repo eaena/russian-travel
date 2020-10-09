@@ -2,6 +2,7 @@
 @import url(./__list/footer__list.css);
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
+@import url(./__list-element/footer__list-element.css);
 
 .footer {
     width: 92.5%;
@@ -31,5 +32,6 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        padding-top: 64px;
     } 
    }

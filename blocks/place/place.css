@@ -12,25 +12,25 @@
     flex-wrap: wrap;
     color: white;
     margin: 0;
-    padding: 0;
+    padding-bottom: 84px;
 }
 
-.place + .place {
-    margin-top: 84px;
+.place:last-child {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .place + .place {
-        margin-top: 87px;
+    .place {
+        padding-bottom: 87px;
     }
    }
    @media screen and (max-width: 1023px) {
-    .place + .place {
-        margin-top: 72px;
+    .place {
+        padding-bottom: 72px;
     }
    }
    @media screen and (max-width: 767px) {
-    .place + .place {
-        margin-top: 55px;
+    .place {
+        padding-bottom: 55px;
     }
    }

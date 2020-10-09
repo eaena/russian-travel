@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.place__paragraph + .place__paragraph {
-    margin-top: 24px;
+.place__paragraph:first-child {
+    padding-bottom: 24px;
 }
 
